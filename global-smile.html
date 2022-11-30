@@ -1,0 +1,71 @@
+<!--block, inline -> elements flow
+
+    - global css
+    id, class, tag
+    
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global CSS | Emoticon</title>
+    <style>
+        #smile {
+            background-color: orange;
+
+            width: 200px;
+            height: 200px;
+
+            margin-top: 50px;
+            margin-left: 100px;
+
+            border-top: 20px solid brown;
+        }
+        body {
+            background-color: #333;
+        }
+        .eyes {
+            /*background-color: antiquewhite;*/
+            text-align: center;
+            font-size: 46px;
+            padding: 18px;
+            color: blue;
+        }
+        .nose {
+            /*background-color: aqua;*/
+            text-align: center;
+            font-size: 30px;
+            color:black;
+        }
+        .mouth {
+            font-size: 46px;
+            text-align: center;
+        }
+        .eye {
+            border-top: 5px solid brown;
+            padding-top: 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="smile">
+        <div class="eyes">
+            <span class="eye">●</span>
+            <span class="eye">●</span>
+        </div>
+        <div class="nose">
+            ▲
+        </div>
+        <div class="mouth">
+            ▬
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
